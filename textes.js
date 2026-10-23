@@ -36,6 +36,56 @@ window.TEXTES = {
       { titre: "Des clients, sans la prospection", texte: "Brand.UP trouve les projets, gère le client et la facturation. Toi, tu crées." },
       { titre: "100 % remote", texte: "Tu travailles d’où tu veux, à ton rythme, dans le respect des deadlines." },
       { titre: "Des projets de marque complets", texte: "Identités visuelles, DA, guidelines, rebrandings : du vrai branding, pas des logos à la chaîne." }
+    ],
+
+    // ---------- Témoignages (sous les 3 cartes) ----------
+    // Mets UNIQUEMENT de vrais avis, avec l'accord de la personne.
+    // type : "avis" ou "linkedin"
+    // texte : l'avis, mot pour mot (tant qu'il commence par [ , la carte s'affiche en pointillés)
+    // nom, role : qui parle (ex : "Designer freelance" ou "Fondatrice, Marque X")
+    // lien : (facultatif) son profil LinkedIn
+    // photo : (facultatif) ex "assets/temoignages/prenom.jpg"
+    // capture : (facultatif) une capture d'écran de la recommandation, ex "assets/temoignages/reco-prenom.png"
+    //           → si elle est remplie, la capture remplace le texte
+    // Pour supprimer un témoignage, efface tout le bloc { ... }, y compris la virgule qui suit.
+    temoignagesSurtitre: "Ils parlent de Brand.UP",
+    temoignagesTitre: "Ce qu’en disent ceux qui ont travaillé avec nous",
+    temoignages: [
+      {
+        type: "avis",
+        texte: "[Avis n°1 à coller ici — par exemple le retour d’un client ou d’un freelance sur votre collaboration]",
+        nom: "[Prénom Nom]",
+        role: "[Fonction, entreprise]",
+        lien: "", photo: "", capture: ""
+      },
+      {
+        type: "avis",
+        texte: "[Avis n°2 à coller ici]",
+        nom: "[Prénom Nom]",
+        role: "[Fonction, entreprise]",
+        lien: "", photo: "", capture: ""
+      },
+      {
+        type: "avis",
+        texte: "[Avis n°3 à coller ici]",
+        nom: "[Prénom Nom]",
+        role: "[Fonction, entreprise]",
+        lien: "", photo: "", capture: ""
+      },
+      {
+        type: "linkedin",
+        texte: "[Recommandation LinkedIn n°1 — copie le texte depuis ton profil, rubrique Recommandations]",
+        nom: "[Prénom Nom]",
+        role: "[Fonction, entreprise]",
+        lien: "", photo: "", capture: ""
+      },
+      {
+        type: "linkedin",
+        texte: "[Recommandation LinkedIn n°2]",
+        nom: "[Prénom Nom]",
+        role: "[Fonction, entreprise]",
+        lien: "", photo: "", capture: ""
+      }
     ]
   },
 

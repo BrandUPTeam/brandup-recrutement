@@ -6,6 +6,16 @@
   var T = window.TEXTES || {};
   var C = window.BRANDUP_CONFIG || {};
 
+  // Police Avenir Next via Adobe Fonts (si un kit est renseigné dans config.js)
+  var kit = (C.adobeFontsKit || "").trim();
+  if (kit) {
+    var l = document.createElement("link");
+    l.rel = "stylesheet";
+    l.href = "https://use.typekit.net/" + encodeURIComponent(kit) + ".css";
+    document.head.appendChild(l);
+    document.documentElement.classList.add("avec-adobe");
+  }
+
   function lire(chemin) {
     return chemin.split(".").reduce(function (obj, cle) {
       return obj == null ? undefined : obj[cle];
@@ -43,6 +53,52 @@
       li.appendChild(el("p", null, c.texte));
       ul.appendChild(li);
     });
+  });
+
+  // Témoignages et recommandations LinkedIn (page 1)
+  document.querySelectorAll("[data-temoignages]").forEach(function (ul) {
+    var liste = lire(ul.getAttribute("data-temoignages")) || [];
+    liste.forEach(function (t) {
+      var aRemplir = /^\s*\[/.test(t.texte || "") && !t.capture;
+      var li = el("li", "temoignage" + (aRemplir ? " temoignage--a-remplir" : ""));
+      var badge = el("span", "temoignage__badge", t.type === "linkedin" ? "Recommandation LinkedIn" : "Avis");
+      if (t.type === "linkedin") badge.classList.add("temoignage__badge--linkedin");
+      li.appendChild(badge);
+      if (t.capture) {
+        var img = el("img", "temoignage__capture");
+        img.src = t.capture;
+        img.alt = "Recommandation de " + (t.nom || "");
+        img.loading = "lazy";
+        li.appendChild(img);
+      } else {
+        var q = el("blockquote", "temoignage__texte");
+        q.appendChild(el("p", null, t.texte));
+        li.appendChild(q);
+      }
+      var auteur = el("div", "temoignage__auteur");
+      var initiales = (t.nom || "?").replace(/[\[\]]/g, "").split(/\s+/).map(function (m) { return m.charAt(0); }).join("").slice(0, 2).toUpperCase();
+      if (t.photo) {
+        var ph = el("img", "temoignage__photo");
+        ph.src = t.photo; ph.alt = ""; ph.loading = "lazy";
+        auteur.appendChild(ph);
+      } else {
+        var av = el("span", "temoignage__initiales", initiales);
+        av.setAttribute("aria-hidden", "true");
+        auteur.appendChild(av);
+      }
+      var id = el("div");
+      var nom = t.lien ? el("a", "temoignage__nom", t.nom) : el("p", "temoignage__nom", t.nom);
+      if (t.lien) { nom.href = t.lien; nom.target = "_blank"; nom.rel = "noopener"; }
+      id.appendChild(nom);
+      if (t.role) id.appendChild(el("p", "temoignage__role", t.role));
+      auteur.appendChild(id);
+      li.appendChild(auteur);
+      ul.appendChild(li);
+    });
+    if (!liste.length) {
+      var sec = ul.closest("section");
+      if (sec) sec.hidden = true;
+    }
   });
 
   // Blocs bleus (page 2)
