@@ -1,31 +1,44 @@
 /*
   ============================================================
-  RÉGLAGES DU SITE — c'est le SEUL fichier à modifier.
+  RÉGLAGES DU SITE
   Remplace le texte entre guillemets, sans toucher au reste.
   ============================================================
 */
 window.BRANDUP_CONFIG = {
-  // ID du formulaire Tally « Contact » (page 1).
+
+  // ---------- ACCÈS AU SITE ----------
+  // true  = site verrouillé : les visiteurs voient « Coming soon » et doivent taper le code.
+  // false = site ouvert à tous (à mettre le jour du lancement).
+  siteVerrouille: true,
+  // Code pour entrer pendant la construction. Lien direct sans taper le code :
+  // https://ton-site/?code=LE_CODE
+  codeAcces: "brandup2026",
+
+  // ---------- FORMULAIRES TALLY ----------
   // Dans Tally : Share → le lien ressemble à https://tally.so/r/wA1bCd → l'ID est wA1bCd
-  tallyContactId: "",
+  tallyContactId: "",        // formulaire « Contact » (page 1), version anglaise
+  tallyCandidatureId: "",    // questionnaire (page 3), version anglaise
+  // Facultatif : versions françaises. Si vides, la version anglaise est utilisée.
+  tallyContactIdFr: "",
+  tallyCandidatureIdFr: "",
 
-  // ID du formulaire Tally « Candidature » (page 3), même principe.
-  tallyCandidatureId: "",
-
-  // Lien de ta vidéo YouTube (ex : https://www.youtube.com/watch?v=XXXXXXXX) ou Vimeo.
+  // ---------- VIDÉO ----------
+  // Lien YouTube (ex : https://www.youtube.com/watch?v=XXXXXXXX) ou Vimeo.
   videoUrl: "",
+  videoUrlFr: "",            // facultatif : vidéo en français
 
-  // Lien public de la page Notion « + de détails » (Notion → Share → Publish).
+  // ---------- PAGE « + MORE DETAILS » ----------
+  // Lien public de la page Notion (Notion → Share → Publish).
   detailsUrl: "",
+  detailsUrlFr: "",          // facultatif : version française
 
-  // Police Avenir Next (charte Brand.UP) via Adobe Fonts — facultatif.
+  // ---------- POLICE AVENIR NEXT (facultatif) ----------
   // Sans kit : Avenir Next s'affiche chez les visiteurs Apple (Mac, iPhone),
   // Nunito Sans (la plus proche) chez les autres.
-  // Avec un kit Adobe Fonts contenant « Avenir Next LT Pro », colle ici son ID
-  // (fonts.adobe.com → Web Projects → l'ID ressemble à abc1def).
+  // Avec un kit Adobe Fonts contenant « Avenir Next LT Pro », colle ici son ID.
   adobeFontsKit: "",
 
-  // Liens réseaux sociaux du pied de page.
+  // ---------- RÉSEAUX SOCIAUX ----------
   linkedinUrl: "https://www.linkedin.com/",
   instagramUrl: "https://www.instagram.com/"
 };
