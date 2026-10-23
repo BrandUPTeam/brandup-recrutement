@@ -4,7 +4,7 @@ Site de recrutement des freelances branding / DA, en 3 étapes :
 
 1. `index.html` : page de capture (formulaire Tally « Contact »)
 2. `presentation.html` : vidéo + présentation de la mission
-3. `candidature.html` : questionnaire Tally « Candidature »
+3. `apply.html` : questionnaire Tally « Candidature »
 
 Les réponses arrivent dans Notion via l'intégration native de Tally.
 
@@ -14,7 +14,7 @@ Les réponses arrivent dans Notion via l'intégration native de Tally.
 | --- | --- |
 | Un texte, un titre, une puce, un bouton | `textes.js` |
 | Les formulaires Tally, la vidéo, le lien Notion, les réseaux sociaux | `config.js` |
-| Les mentions légales ou la politique de confidentialité | `mentions-legales.html`, `confidentialite.html` |
+| Les mentions légales ou la politique de confidentialité | `legal-notice.html`, `privacy.html` |
 
 Sur github.com :
 

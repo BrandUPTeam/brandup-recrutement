@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rejoins Brand.UP — Freelances Branding & DA</title>
-  <meta name="description" content="Brand.UP recrute des freelances experts en branding et direction artistique. 100 % remote, missions de marque complètes.">
-  <meta property="og:title" content="Rejoins le réseau créatif Brand.UP">
-  <meta property="og:description" content="Freelances branding & direction artistique : candidature en 3 étapes.">
+  <title>Join Brand.UP — Freelance Branding & Art Direction</title>
+  <meta name="description" content="Brand.UP is looking for freelance branding and art direction experts. 100% remote, end-to-end brand projects.">
+  <meta property="og:title" content="Join the Brand.UP creative network">
+  <meta property="og:description" content="Freelance branding & art direction: apply in 3 steps.">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,56 +17,65 @@
 
   <header class="bandeau">
     <p class="bandeau__titre" data-t="bandeau.titre"></p>
-    <p class="bandeau__etape" data-t="bandeau.etape1"></p>
+    <p class="bandeau__sous">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15 9a4 4 0 0 1 0 6"/><path d="M18 6.5a8 8 0 0 1 0 11"/></svg>
+      <span data-t="bandeau.sousTitre"></span>
+      <svg class="miroir" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15 9a4 4 0 0 1 0 6"/><path d="M18 6.5a8 8 0 0 1 0 11"/></svg>
+    </p>
   </header>
+  <ol class="etapes" data-etapes="1" aria-label="Application steps"></ol>
 
-  <main class="large">
-    <section class="hero">
-      <div class="hero__texte">
-        <img class="hero__logo" src="assets/logo-rose.png" alt="Brand.UP" width="180" height="51">
-        <p class="surtitre" data-t="page1.surtitre"></p>
-        <h1><span data-t="page1.titreDebut"></span><span class="surligne" data-t="page1.titreSurligne"></span><span data-t="page1.titreFin"></span></h1>
-        <p class="intro" data-t="page1.sousTitre"></p>
-        <ul class="badges" data-liste="page1.badges"></ul>
-      </div>
+  <main>
+    <img src="assets/logo-rose.png" alt="Brand.UP" width="150" height="43" style="width:150px">
 
-      <div class="carte-form" id="haut">
-        <p class="carte-form__titre" data-t="page1.formTitre"></p>
-        <div data-tally="tallyContactId" data-suite="presentation.html" data-hauteur="430" data-titre="Formulaire de contact"></div>
-        <p class="mention" data-t="page1.formMention"></p>
-      </div>
-    </section>
+    <h1 class="titre-hero"><span data-t="page1.titreDebut"></span><span class="surligne" data-t="page1.titreSurligne"></span><span data-t="page1.titreFin"></span></h1>
 
-    <section class="section-titre-et-cartes" style="display:flex;flex-direction:column;gap:32px">
-      <div class="section-titre">
-        <p class="surtitre" data-t="page1.pourquoiSurtitre"></p>
-        <h2 data-t="page1.pourquoiTitre"></h2>
-      </div>
-      <ul class="cartes" data-cartes="page1.cartes"></ul>
-    </section>
+    <p class="intro" data-t="page1.sousTitre"></p>
 
-    <section style="display:flex;flex-direction:column;gap:32px">
-      <div class="section-titre">
-        <p class="surtitre" data-t="page1.temoignagesSurtitre"></p>
-        <h2 data-t="page1.temoignagesTitre"></h2>
+    <ul class="badges" data-liste="page1.badges"></ul>
+
+    <div class="fleches" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </div>
+
+    <div class="carte-form" id="formulaire">
+      <p class="carte-form__titre" data-t="page1.formTitre"></p>
+      <div class="cadre-tally">
+        <div data-tally="tallyContactId" data-suite="presentation.html" data-hauteur="430" data-titre="Contact form"></div>
       </div>
+      <p class="mention" data-t="page1.formMention"></p>
+    </div>
+
+    <section class="max-1100" style="display:flex;flex-direction:column;align-items:center;gap:36px">
+      <h2 class="titre-section">
+        <span data-t="page1.temoignagesTitre"></span>
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L20.5 10l-6.3 2.2L12 18.5l-2.2-6.3L3.5 10l6.3-1.7z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></svg>
+      </h2>
       <ul class="temoignages" data-temoignages="page1.temoignages"></ul>
-      <div class="boutons" style="justify-content:flex-start">
-        <a class="bouton" href="#haut">Je candidate →</a>
-      </div>
+      <a class="bouton" href="#formulaire"><span data-t="page1.boutonHaut"></span>
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </a>
     </section>
   </main>
 
   <footer class="pied">
     <div class="pied__contenu">
       <div class="pied__ligne">
-        <img class="pied__logo" src="assets/logo-blanc-tagline.png" alt="Brand.UP — Build. Upgrade. Perform." width="170" height="66">
-        <nav aria-label="Liens du pied de page">
-          <a href="mentions-legales.html" data-t="footer.mentions"></a>
-          <a href="confidentialite.html" data-t="footer.confidentialite"></a>
-          <a href="#" data-social="linkedinUrl" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="#" data-social="instagramUrl" target="_blank" rel="noopener">Instagram</a>
+        <img class="pied__logo" src="assets/logo-blanc-tagline.png" alt="Brand.UP — Build. Upgrade. Perform." width="150" height="58">
+        <nav aria-label="Footer links">
+          <a href="legal-notice.html" data-t="footer.mentions"></a>
+          <a href="privacy.html" data-t="footer.confidentialite"></a>
         </nav>
+        <div class="reseaux">
+          <a href="#" data-social="linkedinUrl" target="_blank" rel="noopener" aria-label="LinkedIn"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg></a>
+          <a href="#" data-social="instagramUrl" target="_blank" rel="noopener" aria-label="Instagram"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+      <div class="avertissement">
+        <strong data-t="footer.avertissementTitre"></strong>
+        <p data-t="footer.avertissement"></p>
       </div>
     </div>
   </footer>
