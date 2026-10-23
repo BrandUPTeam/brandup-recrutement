@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rejoins Brand.UP — Freelances Branding & DA</title>
+  <meta name="description" content="Brand.UP recrute des freelances experts en branding et direction artistique. 100 % remote, missions de marque complètes.">
+  <meta property="og:title" content="Rejoins le réseau créatif Brand.UP">
+  <meta property="og:description" content="Freelances branding & direction artistique : candidature en 3 étapes.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500;6..12,700;6..12,800;6..12,900&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="bandeau">
+    <p class="bandeau__titre" data-t="bandeau.titre"></p>
+    <p class="bandeau__etape" data-t="bandeau.etape1"></p>
+  </header>
+
+  <main class="large">
+    <section class="hero">
+      <div class="hero__texte">
+        <img class="hero__logo" src="assets/logo-rose.png" alt="Brand.UP" width="180" height="51">
+        <p class="surtitre" data-t="page1.surtitre"></p>
+        <h1><span data-t="page1.titreDebut"></span><span class="surligne" data-t="page1.titreSurligne"></span><span data-t="page1.titreFin"></span></h1>
+        <p class="intro" data-t="page1.sousTitre"></p>
+        <ul class="badges" data-liste="page1.badges"></ul>
+      </div>
+
+      <div class="carte-form">
+        <p class="carte-form__titre" data-t="page1.formTitre"></p>
+        <div data-tally="tallyContactId" data-suite="presentation.html" data-hauteur="430" data-titre="Formulaire de contact"></div>
+        <p class="mention" data-t="page1.formMention"></p>
+      </div>
+    </section>
+
+    <section class="section-titre-et-cartes" style="display:flex;flex-direction:column;gap:32px">
+      <div class="section-titre">
+        <p class="surtitre" data-t="page1.pourquoiSurtitre"></p>
+        <h2 data-t="page1.pourquoiTitre"></h2>
+      </div>
+      <ul class="cartes" data-cartes="page1.cartes"></ul>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="pied__contenu">
+      <div class="pied__ligne">
+        <img class="pied__logo" src="assets/logo-blanc-tagline.png" alt="Brand.UP — Build. Upgrade. Perform." width="170" height="66">
+        <nav aria-label="Liens du pied de page">
+          <a href="mentions-legales.html" data-t="footer.mentions"></a>
+          <a href="confidentialite.html" data-t="footer.confidentialite"></a>
+          <a href="#" data-social="linkedinUrl" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" data-social="instagramUrl" target="_blank" rel="noopener">Instagram</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="textes.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>

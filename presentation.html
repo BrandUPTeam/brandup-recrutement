@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Étape 2 — Présentation de la mission | Brand.UP</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500;6..12,700;6..12,800;6..12,900&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="bandeau">
+    <p class="bandeau__titre" data-t="bandeau.titre"></p>
+    <p class="bandeau__etape" data-t="bandeau.etape2"></p>
+  </header>
+
+  <main class="moyen">
+    <section class="video-section">
+      <h1 data-t="page2.titre"></h1>
+      <p data-t="page2.sousTitre"></p>
+      <div class="video" data-video>
+        <div class="video__vide">
+          <span class="video__play" aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="#104B97"><path d="M8 5.5v13l11-6.5z"/></svg>
+          </span>
+          <span>Vidéo à venir — ajoute son lien dans config.js</span>
+        </div>
+      </div>
+      <a class="bouton" href="candidature.html" data-t="page2.boutonCandidater"></a>
+    </section>
+
+    <section class="blocs" data-blocs="page2.blocs"></section>
+
+    <section class="boutons">
+      <a class="bouton bouton--secondaire" href="#" data-lien="detailsUrl" target="_blank" rel="noopener" data-t="page2.boutonDetails"></a>
+      <a class="bouton" href="candidature.html" data-t="page2.boutonCandidater"></a>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="pied__contenu">
+      <div class="pied__ligne">
+        <img class="pied__logo" src="assets/logo-blanc-tagline.png" alt="Brand.UP — Build. Upgrade. Perform." width="170" height="66">
+        <nav aria-label="Liens du pied de page">
+          <a href="mentions-legales.html" data-t="footer.mentions"></a>
+          <a href="confidentialite.html" data-t="footer.confidentialite"></a>
+          <a href="#" data-social="linkedinUrl" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" data-social="instagramUrl" target="_blank" rel="noopener">Instagram</a>
+        </nav>
+      </div>
+      <p class="pied__note" data-t="page2.avertissement"></p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="textes.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
