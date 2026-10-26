@@ -370,3 +370,4 @@ html.verrouille body > *:not(.ecran-verrou) { display: none !important; }
 .temoignage__etoiles { color: #FBBC04; font-size: 17px; letter-spacing: 2px; }
 .temoignage__traduit { margin: 4px 0 0; font-size: 12px; font-style: italic; color: var(--gris); opacity: 0.8; }
 .temoignage__photo { width: 52px; height: 52px; border: 2px solid var(--rose); background: #000; }
+.cadre-tally__logo { display: block; width: 64px; height: 64px; margin: 4px auto 6px; }
