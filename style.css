@@ -369,3 +369,4 @@ html.verrouille body > *:not(.ecran-verrou) { display: none !important; }
 .temoignage__badge--google { background: var(--blanc); color: #1F2937; }
 .temoignage__etoiles { color: #FBBC04; font-size: 17px; letter-spacing: 2px; }
 .temoignage__traduit { margin: 4px 0 0; font-size: 12px; font-style: italic; color: var(--gris); opacity: 0.8; }
+.temoignage__photo { width: 52px; height: 52px; border: 2px solid var(--rose); background: #000; }

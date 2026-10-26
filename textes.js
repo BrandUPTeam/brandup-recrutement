@@ -32,18 +32,21 @@ window.TEXTES = {
       // nom / role: who says it · lien: profile link (optional) · photo: optional, e.g. "assets/temoignages/name.jpg"
       // capture: optional screenshot path (replaces the text) · while texte starts with [ the card shows dashed
       temoignages: [
-        { type: "linkedin", traduit: true, nom: "Kevin Contoux", role: "B2B sales systems · Rebranding client",
+        { type: "linkedin", traduit: true, nom: "Kevin Contoux", role: "Founder, The Machine",
           texte: "I hired Joanna to rebrand my company. We wanted to target bigger companies and markets, and needed to adapt our communication and brand image. I was pleasantly surprised by the quality of the work and above all by how efficiently she understood our needs. […] Joanna understood exactly what we needed with a detailed questionnaire, 2 calls and WhatsApp follow-up. Very efficient, with very few changes at the end. She even added things we hadn’t thought of, like sales materials and guidelines on the marketing tone for our copywriters. I recommend her 200%.",
-          lien: "", photo: "", capture: "" },
+          lien: "", photo: "assets/temoignages/kevin-contoux.jpg", capture: "" },
         { type: "linkedin", traduit: true, nom: "Guillaume Trotignon", role: "Founder, Zmachina",
           texte: "I asked Joanna for visual branding work and I’m very satisfied. I recommend her without hesitation.",
-          lien: "", photo: "", capture: "" },
+          lien: "", photo: "assets/temoignages/guillaume-trotignon.jpg", capture: "" },
         { type: "google", traduit: false, nom: "Bruno Nobre", role: "Authentic Entertainment",
           texte: "Great communication, deliverables time respected, good skills! If you want quality branding and scale your brand, BRAND.UP!",
-          lien: "", photo: "", capture: "" },
-        { type: "google", traduit: true, nom: "Ines Mettidji", role: "Beautycurly Queen (podcast)",
+          lien: "", photo: "assets/temoignages/authntk.jpg", capture: "" },
+        { type: "google", traduit: false, nom: "Tom Poos", role: "Serenity",
+          texte: "I can only recommend you Brand.UP if you want to scale your brand and get a complete sophisticated branding overhaul 💯. 41 pages with pretty much every detail intentionally covered, from typography to designed website icons.",
+          lien: "", photo: "assets/temoignages/tom-poos.jpg", capture: "" },
+        { type: "google", traduit: true, nom: "Ines Mettidji", role: "Content Creator & UGC",
           texte: "Honestly, a great experience! Brand.UP created the logo for my podcast and I loved the result. Very attentive, professional and talented. I truly recommend them.",
-          lien: "", photo: "", capture: "" }
+          lien: "", photo: "assets/temoignages/ines-mettidji.jpg", capture: "" }
       ]
     },
 
@@ -127,18 +130,21 @@ window.TEXTES = {
       boutonHaut: "Accéder à la vidéo",
       temoignagesTitre: "Ils ont travaillé avec Brand.UP",
       temoignages: [
-        { type: "linkedin", traduit: false, nom: "Kevin Contoux", role: "Systèmes commerciaux B2B · Client rebranding",
+        { type: "linkedin", traduit: false, nom: "Kevin Contoux", role: "Fondateur, The Machine",
           texte: "J’ai fait appel à Joanna pour le rebranding de mon entreprise. Nous souhaitions cibler de plus grosses entreprises / marchés, et avions besoin d’adapter notre communication et notre image de marque. J’ai été agréablement surpris de la qualité du travail et surtout de l’efficacité dans la compréhension du besoin. […] Joanna a parfaitement compris mon besoin avec un questionnaire détaillé, 2 calls et un suivi WhatsApp. Très efficace et très peu de modifications à la fin. Joanna a même intégré des éléments auxquels nous n’avions pas pensé, comme des exemples de supports commerciaux, des instructions sur le ton marketing à adopter pour nos copywriters. Je recommande à 200 %.",
-          lien: "", photo: "", capture: "" },
+          lien: "", photo: "assets/temoignages/kevin-contoux.jpg", capture: "" },
         { type: "linkedin", traduit: false, nom: "Guillaume Trotignon", role: "Fondateur, Zmachina",
           texte: "J’ai sollicité Joanna pour son travail de branding visuel et j’en suis très satisfait. Je la recommande sans hésiter.",
-          lien: "", photo: "", capture: "" },
+          lien: "", photo: "assets/temoignages/guillaume-trotignon.jpg", capture: "" },
         { type: "google", traduit: true, nom: "Bruno Nobre", role: "Authentic Entertainment",
           texte: "Super communication, délais de livraison respectés, de vraies compétences ! Si tu veux un branding de qualité et faire grandir ta marque : BRAND.UP !",
-          lien: "", photo: "", capture: "" },
-        { type: "google", traduit: false, nom: "Ines Mettidji", role: "Beautycurly Queen (podcast)",
+          lien: "", photo: "assets/temoignages/authntk.jpg", capture: "" },
+        { type: "google", traduit: true, nom: "Tom Poos", role: "Serenity",
+          texte: "Je ne peux que vous recommander Brand.UP si vous voulez faire grandir votre marque et obtenir une refonte de branding complète et sophistiquée 💯. 41 pages où quasiment chaque détail est pensé, de la typographie aux icônes du site web.",
+          lien: "", photo: "assets/temoignages/tom-poos.jpg", capture: "" },
+        { type: "google", traduit: false, nom: "Ines Mettidji", role: "Content Creator & UGC",
           texte: "Franchement super expérience ! Brandup a créé le logo de mon podcast et j’ai adoré le résultat. Très à l’écoute, pro et talentueux. Je recommande vraiment.",
-          lien: "", photo: "", capture: "" }
+          lien: "", photo: "assets/temoignages/ines-mettidji.jpg", capture: "" }
       ]
     },
 
