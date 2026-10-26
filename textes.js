@@ -18,15 +18,17 @@ window.TEXTES = {
     etapes: ["Your details", "Watch the video", "Apply"],
 
     page1: {
+      surtitre: "Freelance brand designers & art directors",
       titreDebut: "Build brands that matter with ",
       titreSurligne: "Brand.UP",
       titreFin: "",
       sousTitre: "Enter your details below and get instant access to a short video explaining the role and how to apply.",
-      badges: ["100% remote", "Full branding projects", "Freelance, project by project"],
+      badges: ["100% remote", "Paid per mission", "No client hunting"],
       formTitre: "Get access to the video",
       formMention: "Your data is only used to process your application. It is never sold or shared.",
       boutonHaut: "Get access to the video",
-      temoignagesTitre: "They’ve worked with Brand.UP",
+      temoignagesTitre: "What our clients say",
+      temoignagesSousTitre: "The level of work you’ll be part of.",
       // Use ONLY real reviews, with the person’s consent.
       // type: "linkedin" or "google" · texte: the review · traduit: true if translated from the original
       // nom / role: who says it · lien: profile link (optional) · photo: optional, e.g. "assets/temoignages/name.jpg"
@@ -61,7 +63,8 @@ window.TEXTES = {
           "Join a creative and strategic agency helping entrepreneurs, SMEs and growing brands build strong identities.",
           "Full branding projects — no client hunting, no invoicing hassle.",
           "100% remote: full autonomy and flexibility.",
-          "A long-term collaboration: reliable freelancers get priority on new projects.",
+          "A long-term framework agreement: we keep working with freelancers who deliver.",
+          "Paid within 30 days — even before the client pays us.",
           "Clear briefs and structured feedback from the founders."
         ]},
         { titre: "What you’ll do", puces: [
@@ -120,15 +123,17 @@ window.TEXTES = {
     etapes: ["Tes infos", "La vidéo", "Candidature"],
 
     page1: {
+      surtitre: "Designers de marque & directeurs artistiques freelance",
       titreDebut: "Construis des marques qui comptent avec ",
       titreSurligne: "Brand.UP",
       titreFin: "",
       sousTitre: "Laisse tes coordonnées ci-dessous et accède immédiatement à une courte vidéo qui présente la mission et la marche à suivre.",
-      badges: ["100 % remote", "Projets de branding complets", "Freelance, mission par mission"],
+      badges: ["100 % remote", "Payé à la mission", "Zéro prospection"],
       formTitre: "Accède à la vidéo",
       formMention: "Tes données servent uniquement au suivi de ta candidature. Elles ne sont jamais revendues ni partagées.",
       boutonHaut: "Accéder à la vidéo",
-      temoignagesTitre: "Ils ont travaillé avec Brand.UP",
+      temoignagesTitre: "Ce que disent nos clients",
+      temoignagesSousTitre: "Le niveau d’exigence auquel tu vas contribuer.",
       temoignages: [
         { type: "linkedin", traduit: false, nom: "Kevin Contoux", role: "Fondateur, The Machine",
           texte: "J’ai fait appel à Joanna pour le rebranding de mon entreprise. Nous souhaitions cibler de plus grosses entreprises / marchés, et avions besoin d’adapter notre communication et notre image de marque. J’ai été agréablement surpris de la qualité du travail et surtout de l’efficacité dans la compréhension du besoin. […] Joanna a parfaitement compris mon besoin avec un questionnaire détaillé, 2 calls et un suivi WhatsApp. Très efficace et très peu de modifications à la fin. Joanna a même intégré des éléments auxquels nous n’avions pas pensé, comme des exemples de supports commerciaux, des instructions sur le ton marketing à adopter pour nos copywriters. Je recommande à 200 %.",
@@ -159,7 +164,8 @@ window.TEXTES = {
           "Rejoindre une agence créative et stratégique qui aide entrepreneurs, PME et marques en croissance à construire des identités fortes.",
           "Des projets de branding complets — sans prospection ni facturation à gérer.",
           "100 % à distance : autonomie et flexibilité totales.",
-          "Une collaboration sur le long terme : les freelances fiables sont prioritaires sur les nouveaux projets.",
+          "Un contrat-cadre sur la durée : on continue avec les freelances qui livrent.",
+          "Payé sous 30 jours — même avant que le client nous ait réglés.",
           "Des briefs clairs et des retours structurés des fondateurs."
         ]},
         { titre: "Ce que tu vas faire", puces: [
