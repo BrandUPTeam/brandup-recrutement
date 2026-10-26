@@ -16,7 +16,7 @@ window.BRANDUP_CONFIG = {
 
   // ---------- FORMULAIRES TALLY ----------
   // Dans Tally : Share → le lien ressemble à https://tally.so/r/wA1bCd → l'ID est wA1bCd
-  tallyContactId: "",        // formulaire « Contact » (page 1), version anglaise
+  tallyContactId: "2jjAgj",  // formulaire « Contact » (page 1), version anglaise
   tallyCandidatureId: "",    // questionnaire (page 3), version anglaise
   // Facultatif : versions françaises. Si vides, la version anglaise est utilisée.
   tallyContactIdFr: "",
