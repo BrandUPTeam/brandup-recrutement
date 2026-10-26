@@ -15,7 +15,10 @@
 
   var code = String(C.codeAcces || "");
   try {
-    var dansUrl = new URLSearchParams(location.search).get("code");
+    var params = new URLSearchParams(location.search);
+    // ?preview=coming-soon : show the lock screen as a visitor sees it (forgets the saved code)
+    if (params.get("preview") === "coming-soon") localStorage.removeItem("bu_acces");
+    var dansUrl = params.get("code");
     if (dansUrl && dansUrl === code) localStorage.setItem("bu_acces", code);
     if (localStorage.getItem("bu_acces") === code) return;
   } catch (e) { /* storage blocked: stay locked */ }
