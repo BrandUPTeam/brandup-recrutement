@@ -47,3 +47,7 @@ Pour tout le reste (nouvelle section, design, nouvelle page), demande-le à Clau
 ## Ne pas modifier
 
 `site.js`, `verrou.js` et `style.css` font fonctionner le site.
+
+## Pour les développeurs / Claude
+
+Après une modification de `style.css` ou d'un fichier `.js`, change le numéro `?v=` dans les pages HTML pour que les visiteurs voient la nouvelle version tout de suite.
