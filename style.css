@@ -371,3 +371,7 @@ html.verrouille body > *:not(.ecran-verrou) { display: none !important; }
 .temoignage__traduit { margin: 4px 0 0; font-size: 12px; font-style: italic; color: var(--gris); opacity: 0.8; }
 .temoignage__photo { width: 52px; height: 52px; border: 2px solid var(--rose); background: #000; }
 .cadre-tally__logo { display: block; width: 64px; height: 64px; margin: 4px auto 6px; }
+
+/* Breathing room around the highlighted "Brand.UP" in the title */
+.titre-hero { line-height: 1.22; }
+.titre-hero .surligne { display: inline-block; margin: 0.18em 0.08em 0; padding: 0.02em 0.28em 0.06em; line-height: 1.1; }
