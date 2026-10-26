@@ -18,11 +18,9 @@ window.TEXTES = {
     etapes: ["Your details", "Watch the video", "Apply"],
 
     page1: {
-      surtitre: "Freelance brand designers & art directors",
       titreDebut: "Build brands that matter with ",
       titreSurligne: "Brand.UP",
       titreFin: "",
-      sousTitre: "Enter your details below and get instant access to a short video explaining the role and how to apply.",
       badges: ["100% remote", "Paid per mission", "No client hunting"],
       formTitre: "Get access to the video",
       formMention: "Your data is only used to process your application. It is never sold or shared.",
@@ -123,11 +121,9 @@ window.TEXTES = {
     etapes: ["Tes infos", "La vidéo", "Candidature"],
 
     page1: {
-      surtitre: "Designers de marque & directeurs artistiques freelance",
       titreDebut: "Construis des marques qui comptent avec ",
       titreSurligne: "Brand.UP",
       titreFin: "",
-      sousTitre: "Laisse tes coordonnées ci-dessous et accède immédiatement à une courte vidéo qui présente la mission et la marche à suivre.",
       badges: ["100 % remote", "Payé à la mission", "Zéro prospection"],
       formTitre: "Accède à la vidéo",
       formMention: "Tes données servent uniquement au suivi de ta candidature. Elles ne sont jamais revendues ni partagées.",
