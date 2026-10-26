@@ -19,8 +19,8 @@ window.BRANDUP_CONFIG = {
   tallyContactId: "2jjAgj",  // formulaire « Contact » (page 1), version anglaise
   tallyCandidatureId: "4aaKeb", // questionnaire (page 3), version anglaise
   // Facultatif : versions françaises. Si vides, la version anglaise est utilisée.
-  tallyContactIdFr: "",
-  tallyCandidatureIdFr: "",
+  tallyContactIdFr: "RWWPxP",
+  tallyCandidatureIdFr: "jeePZ9",
 
   // ---------- VIDÉO ----------
   // Lien YouTube (ex : https://www.youtube.com/watch?v=XXXXXXXX) ou Vimeo.
