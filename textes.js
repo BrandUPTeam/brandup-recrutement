@@ -28,14 +28,22 @@ window.TEXTES = {
       boutonHaut: "Get access to the video",
       temoignagesTitre: "They’ve worked with Brand.UP",
       // Use ONLY real reviews, with the person’s consent.
-      // type: "review" or "linkedin" · texte: the review word for word (while it starts with [ the card shows dashed)
-      // nom / role: who says it · lien: LinkedIn profile (optional) · photo / capture: optional image paths
+      // type: "linkedin" or "google" · texte: the review · traduit: true if translated from the original
+      // nom / role: who says it · lien: profile link (optional) · photo: optional, e.g. "assets/temoignages/name.jpg"
+      // capture: optional screenshot path (replaces the text) · while texte starts with [ the card shows dashed
       temoignages: [
-        { type: "review", texte: "[Review #1 — paste a real review from a client or freelancer here]", nom: "[First Last]", role: "[Role, company]", lien: "", photo: "", capture: "" },
-        { type: "review", texte: "[Review #2]", nom: "[First Last]", role: "[Role, company]", lien: "", photo: "", capture: "" },
-        { type: "review", texte: "[Review #3]", nom: "[First Last]", role: "[Role, company]", lien: "", photo: "", capture: "" },
-        { type: "linkedin", texte: "[LinkedIn recommendation #1 — copy it from the Recommendations section of the profile]", nom: "[First Last]", role: "[Role, company]", lien: "", photo: "", capture: "" },
-        { type: "linkedin", texte: "[LinkedIn recommendation #2]", nom: "[First Last]", role: "[Role, company]", lien: "", photo: "", capture: "" }
+        { type: "linkedin", traduit: true, nom: "Kevin Contoux", role: "B2B sales systems · Rebranding client",
+          texte: "I hired Joanna to rebrand my company. We wanted to target bigger companies and markets, and needed to adapt our communication and brand image. I was pleasantly surprised by the quality of the work and above all by how efficiently she understood our needs. […] Joanna understood exactly what we needed with a detailed questionnaire, 2 calls and WhatsApp follow-up. Very efficient, with very few changes at the end. She even added things we hadn’t thought of, like sales materials and guidelines on the marketing tone for our copywriters. I recommend her 200%.",
+          lien: "", photo: "", capture: "" },
+        { type: "linkedin", traduit: true, nom: "Guillaume Trotignon", role: "Founder, Zmachina",
+          texte: "I asked Joanna for visual branding work and I’m very satisfied. I recommend her without hesitation.",
+          lien: "", photo: "", capture: "" },
+        { type: "google", traduit: false, nom: "Bruno Nobre", role: "Authentic Entertainment",
+          texte: "Great communication, deliverables time respected, good skills! If you want quality branding and scale your brand, BRAND.UP!",
+          lien: "", photo: "", capture: "" },
+        { type: "google", traduit: true, nom: "Ines Mettidji", role: "Beautycurly Queen (podcast)",
+          texte: "Honestly, a great experience! Brand.UP created the logo for my podcast and I loved the result. Very attentive, professional and talented. I truly recommend them.",
+          lien: "", photo: "", capture: "" }
       ]
     },
 
@@ -85,6 +93,8 @@ window.TEXTES = {
     // Small interface texts
     ui: {
       avis: "Review",
+      avisGoogle: "Google review",
+      traduit: "Translated from French",
       recoLinkedin: "LinkedIn recommendation",
       videoBientot: "Video coming soon",
       tallyManquant: "Tally form not connected yet.",
@@ -117,11 +127,18 @@ window.TEXTES = {
       boutonHaut: "Accéder à la vidéo",
       temoignagesTitre: "Ils ont travaillé avec Brand.UP",
       temoignages: [
-        { type: "review", texte: "[Avis n°1 — colle ici un vrai avis de client ou de freelance]", nom: "[Prénom Nom]", role: "[Fonction, entreprise]", lien: "", photo: "", capture: "" },
-        { type: "review", texte: "[Avis n°2]", nom: "[Prénom Nom]", role: "[Fonction, entreprise]", lien: "", photo: "", capture: "" },
-        { type: "review", texte: "[Avis n°3]", nom: "[Prénom Nom]", role: "[Fonction, entreprise]", lien: "", photo: "", capture: "" },
-        { type: "linkedin", texte: "[Recommandation LinkedIn n°1 — copie-la depuis la rubrique Recommandations du profil]", nom: "[Prénom Nom]", role: "[Fonction, entreprise]", lien: "", photo: "", capture: "" },
-        { type: "linkedin", texte: "[Recommandation LinkedIn n°2]", nom: "[Prénom Nom]", role: "[Fonction, entreprise]", lien: "", photo: "", capture: "" }
+        { type: "linkedin", traduit: false, nom: "Kevin Contoux", role: "Systèmes commerciaux B2B · Client rebranding",
+          texte: "J’ai fait appel à Joanna pour le rebranding de mon entreprise. Nous souhaitions cibler de plus grosses entreprises / marchés, et avions besoin d’adapter notre communication et notre image de marque. J’ai été agréablement surpris de la qualité du travail et surtout de l’efficacité dans la compréhension du besoin. […] Joanna a parfaitement compris mon besoin avec un questionnaire détaillé, 2 calls et un suivi WhatsApp. Très efficace et très peu de modifications à la fin. Joanna a même intégré des éléments auxquels nous n’avions pas pensé, comme des exemples de supports commerciaux, des instructions sur le ton marketing à adopter pour nos copywriters. Je recommande à 200 %.",
+          lien: "", photo: "", capture: "" },
+        { type: "linkedin", traduit: false, nom: "Guillaume Trotignon", role: "Fondateur, Zmachina",
+          texte: "J’ai sollicité Joanna pour son travail de branding visuel et j’en suis très satisfait. Je la recommande sans hésiter.",
+          lien: "", photo: "", capture: "" },
+        { type: "google", traduit: true, nom: "Bruno Nobre", role: "Authentic Entertainment",
+          texte: "Super communication, délais de livraison respectés, de vraies compétences ! Si tu veux un branding de qualité et faire grandir ta marque : BRAND.UP !",
+          lien: "", photo: "", capture: "" },
+        { type: "google", traduit: false, nom: "Ines Mettidji", role: "Beautycurly Queen (podcast)",
+          texte: "Franchement super expérience ! Brandup a créé le logo de mon podcast et j’ai adoré le résultat. Très à l’écoute, pro et talentueux. Je recommande vraiment.",
+          lien: "", photo: "", capture: "" }
       ]
     },
 
@@ -170,6 +187,8 @@ window.TEXTES = {
 
     ui: {
       avis: "Avis",
+      avisGoogle: "Avis Google",
+      traduit: "Traduit de l’anglais",
       recoLinkedin: "Recommandation LinkedIn",
       videoBientot: "Vidéo bientôt disponible",
       tallyManquant: "Formulaire Tally pas encore branché.",

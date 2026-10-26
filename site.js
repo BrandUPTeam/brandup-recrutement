@@ -140,9 +140,19 @@
       var aRemplir = /^\s*\[/.test(t.texte || "") && !t.capture;
       var li = el("li", "temoignage" + (aRemplir ? " temoignage--a-remplir" : ""));
       var estLinkedin = t.type === "linkedin";
-      var badge = el("span", "temoignage__badge", estLinkedin ? (UI.recoLinkedin || "LinkedIn") : (UI.avis || "Review"));
+      var estGoogle = t.type === "google";
+      var tete = el("div", "temoignage__tete");
+      var badge = el("span", "temoignage__badge",
+        estLinkedin ? (UI.recoLinkedin || "LinkedIn") : estGoogle ? (UI.avisGoogle || "Google review") : (UI.avis || "Review"));
       if (estLinkedin) badge.classList.add("temoignage__badge--linkedin");
-      li.appendChild(badge);
+      if (estGoogle) badge.classList.add("temoignage__badge--google");
+      tete.appendChild(badge);
+      if (estGoogle) {
+        var etoiles = el("span", "temoignage__etoiles", "★★★★★");
+        etoiles.setAttribute("aria-label", "5/5");
+        tete.appendChild(etoiles);
+      }
+      li.appendChild(tete);
       if (t.capture) {
         var img = el("img", "temoignage__capture");
         img.src = t.capture;
@@ -171,6 +181,7 @@
       if (t.lien) { nom.href = t.lien; nom.target = "_blank"; nom.rel = "noopener"; }
       id.appendChild(nom);
       if (t.role) id.appendChild(el("p", "temoignage__role", t.role));
+      if (t.traduit && UI.traduit) id.appendChild(el("p", "temoignage__traduit", UI.traduit));
       auteur.appendChild(id);
       li.appendChild(auteur);
       ul.appendChild(li);

@@ -361,3 +361,11 @@ html.verrouille body > *:not(.ecran-verrou) { display: none !important; }
 .ecran-verrou__form input:focus { outline: 3px solid var(--rose); outline-offset: 1px; }
 .ecran-verrou__form .bouton { width: 100%; margin-top: 6px; border: 0; cursor: pointer; font-family: inherit; }
 .ecran-verrou__erreur { min-height: 1.4em; font-size: 15px !important; color: var(--rose) !important; text-align: center; }
+
+/* ---------- Testimonials: masonry layout, Google badge, stars ---------- */
+.temoignages { display: block; columns: 3 300px; column-gap: 24px; }
+.temoignages .temoignage { break-inside: avoid; margin: 0 0 24px; width: 100%; }
+.temoignage__tete { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.temoignage__badge--google { background: var(--blanc); color: #1F2937; }
+.temoignage__etoiles { color: #FBBC04; font-size: 17px; letter-spacing: 2px; }
+.temoignage__traduit { margin: 4px 0 0; font-size: 12px; font-style: italic; color: var(--gris); opacity: 0.8; }
