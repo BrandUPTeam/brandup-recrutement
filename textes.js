@@ -15,7 +15,7 @@ window.TEXTES = {
       titre: "Freelance application — Brand Designer",
       sousTitre: "Follow the steps to apply"
     },
-    etapes: ["Your details", "The role", "Apply"],
+    etapes: ["Your details", "The opportunity", "Apply"],
 
     page1: {
       titreDebut: "Build brands that matter with ",
@@ -51,8 +51,8 @@ window.TEXTES = {
     },
 
     page2: {
-      titre: "Discover the role before applying",
-      sousTitre: "Everything you need to know about the role, how we work together and what we expect from you.",
+      titre: "Discover the opportunity before applying",
+      sousTitre: "Everything you need to know about the collaboration, how we work together and our expectations.",
       videoBadge: "Turn the sound on",
       boutonCandidater: "Apply now",
       boutonDetails: "+ More details",
@@ -65,7 +65,7 @@ window.TEXTES = {
           "100% remote: your hours, your methods, your tools.",
           "Room to grow: larger projects and direct client involvement after your first successful projects."
         ]},
-        { titre: "Your missions", puces: [
+        { titre: "The projects", puces: [
           "Review the brand strategy and challenge it with your design expertise.",
           "Analyse the market and propose 2–3 distinct visual directions.",
           "Design the logo and its variations, then the complete visual system: colours, typography, graphic elements, photo direction.",
@@ -78,12 +78,6 @@ window.TEXTES = {
           "You think brand before logo: strategy drives every creative choice.",
           "Clear communication, openness to feedback and reliability with deadlines.",
           "Your own licensed tools and a self-employed status to invoice."
-        ]},
-        { titre: "How it works", puces: [
-          "Apply in about 10 minutes with your portfolio and one case study.",
-          "We review every application. Shortlisted profiles are invited to a video call with the founders.",
-          "Each project is validated step by step, with short weekly updates and a review call at the end of each phase.",
-          "You create, Brand.UP handles the client. Your work is delivered under the Brand.UP name."
         ]}
       ]
     },
@@ -98,7 +92,7 @@ window.TEXTES = {
       mentions: "Legal notice",
       confidentialite: "Privacy policy",
       avertissementTitre: "Disclaimer:",
-      avertissement: "Brand.UP works with independent freelancers on a project-by-project basis. This is not a salaried job offer. The volume of projects depends on ongoing client work. We believe in hard work, real value and long-term partnerships — not shortcuts."
+      avertissement: "This is not a salaried job offer. Brand.UP works with freelancers on a project-by-project basis. The volume of projects depends on ongoing client work."
     },
 
     // Small interface texts
@@ -125,7 +119,7 @@ window.TEXTES = {
       titre: "Candidature freelance — Brand Designer",
       sousTitre: "Suis les étapes pour candidater"
     },
-    etapes: ["Tes infos", "Le poste", "Candidature"],
+    etapes: ["Tes infos", "L’opportunité", "Candidature"],
 
     page1: {
       titreDebut: "Construis des marques qui comptent avec ",
@@ -157,8 +151,8 @@ window.TEXTES = {
     },
 
     page2: {
-      titre: "Découvre le poste avant de candidater",
-      sousTitre: "Tout ce qu’il faut savoir sur la mission, notre façon de collaborer et ce que l’on attend de toi.",
+      titre: "Découvre l’opportunité avant de candidater",
+      sousTitre: "Tout ce qu’il faut savoir sur la collaboration, notre façon de travailler ensemble et nos attentes.",
       videoBadge: "Active le son",
       boutonCandidater: "Je candidate",
       boutonDetails: "+ de détails",
@@ -171,7 +165,7 @@ window.TEXTES = {
           "100 % à distance : tes horaires, tes méthodes, tes outils.",
           "De la place pour évoluer : des projets plus importants et un contact direct avec les clients après tes premiers projets réussis."
         ]},
-        { titre: "Tes missions", puces: [
+        { titre: "Les projets", puces: [
           "Analyser la stratégie de marque et la challenger avec ton expertise de designer.",
           "Étudier le marché et proposer 2 à 3 pistes visuelles distinctes.",
           "Créer le logo et ses déclinaisons, puis le système visuel complet : couleurs, typographies, éléments graphiques, direction photo.",
@@ -184,18 +178,12 @@ window.TEXTES = {
           "Tu penses marque avant de penser logo : la stratégie guide chacun de tes choix créatifs.",
           "Une communication claire, de l’ouverture aux retours et de la fiabilité sur les délais.",
           "Tes propres logiciels sous licence et un statut indépendant pour facturer."
-        ]},
-        { titre: "Comment ça se passe", puces: [
-          "Tu candidates en 10 minutes environ, avec ton portfolio et une étude de cas.",
-          "Nous étudions chaque candidature. Les profils présélectionnés sont invités à un appel vidéo avec les fondateurs.",
-          "Chaque projet est validé étape par étape, avec de courts points chaque semaine et un appel de revue à la fin de chaque phase.",
-          "Tu crées, Brand.UP gère le client. Ton travail est livré sous le nom de Brand.UP."
         ]}
       ]
     },
 
     page3: {
-      titre: "Montre-nous comment tu penses la marque",
+      titre: "Montre-nous ton approche de la marque",
       sousTitre: "Pas besoin de réponses parfaites : sois précis·e et sois toi-même. Prépare le lien de ton portfolio.",
       duree: "Environ 10 minutes"
     },
@@ -204,7 +192,7 @@ window.TEXTES = {
       mentions: "Mentions légales",
       confidentialite: "Confidentialité",
       avertissementTitre: "Avertissement :",
-      avertissement: "Brand.UP collabore avec des freelances indépendants, mission par mission. Il ne s’agit pas d’une offre d’emploi salarié. Le volume de missions dépend des projets en cours. Nous croyons au travail, à la vraie valeur et aux partenariats durables — pas aux raccourcis."
+      avertissement: "Il ne s’agit pas d’une offre d’emploi salarié. Brand.UP collabore avec des freelances, mission par mission. Le volume de missions dépend des projets en cours."
     },
 
     ui: {

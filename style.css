@@ -377,3 +377,7 @@ html.verrouille body > *:not(.ecran-verrou) { display: none !important; }
 .titre-hero .surligne { display: inline-block; margin: 0.18em 0.08em 0; padding: 0.02em 0.28em 0.06em; line-height: 1.1; }
 .surtitre-hero { margin: -24px 0 -36px; font-size: 14px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--rose); text-align: center; }
 .sous-titre-section { margin: -24px 0 0; font-size: 17px; color: var(--gris); text-align: center; }
+
+/* ---------- Bilingual legal pages ---------- */
+html:not([lang="fr"]) [data-lang="fr"],
+html[lang="fr"] [data-lang="en"] { display: none; }
