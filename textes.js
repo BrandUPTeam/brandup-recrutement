@@ -58,25 +58,31 @@ window.TEXTES = {
       boutonDetails: "+ More details",
       blocs: [
         { titre: "What we offer", puces: [
-          "Join a creative and strategic agency helping entrepreneurs, SMEs and growing brands build strong identities.",
-          "Full branding projects — no client hunting, no invoicing hassle.",
-          "100% remote: full autonomy and flexibility.",
-          "A long-term framework agreement: we keep working with freelancers who deliver.",
-          "Paid within 30 days — even before the client pays us.",
-          "Clear briefs and structured feedback from the founders."
+          "Real branding projects for entrepreneurs, SMEs and growing brands — without hunting for clients, writing quotes or chasing payments.",
+          "100% remote: you organise your time as you like, as long as deadlines are met.",
+          "One clear mission order per project: brief, deliverables, timeline and price agreed before you start.",
+          "Paid within 30 days of your invoice — never dependent on whether the client has paid us.",
+          "Creative direction from the founders: clear briefs and structured feedback.",
+          "A long-term partnership: we keep working with the freelancers who deliver."
         ]},
-        { titre: "What you’ll do", puces: [
-          "Create complete visual identities: logo, color palette, typography, graphic elements.",
-          "Lead the art direction of brands and campaigns.",
-          "Design brand guidelines and their applications (social media, print, packaging).",
-          "Present your creative routes and refine them with feedback until sign-off."
+        { titre: "Your missions", puces: [
+          "Create complete visual identities: logo, colour palette, typography, graphic system.",
+          "Lead the art direction of brands and campaigns: moodboards, creative routes, visual supervision.",
+          "Design brand guidelines and their applications — social media, print, packaging, presentations.",
+          "Present your creative routes, explain your choices and refine them until sign-off."
         ]},
         { titre: "What you bring", puces: [
-          "You think brand before logo: strategy drives your creative choices.",
-          "A strong portfolio in visual identity and/or art direction.",
-          "Reliability: you meet deadlines and communicate clearly.",
-          "Mastery of your tools (Illustrator, Photoshop, InDesign, Figma…).",
-          "A freelance / self-employed status to invoice your projects."
+          "You think brand before logo: strategy drives every creative choice.",
+          "A portfolio that proves it, in visual identity and/or art direction.",
+          "Reliability: you meet deadlines and flag any risk early.",
+          "Clean, organised source files, ready to hand over.",
+          "Your own licensed tools and a self-employed status to invoice."
+        ]},
+        { titre: "How it works", puces: [
+          "Apply in about 10 minutes with your portfolio and one case study.",
+          "We review every application. Shortlisted profiles are invited to a video call with the founders.",
+          "You sign our framework contract once — then each project comes with its own mission order.",
+          "You create, Brand.UP handles the client. Your work is delivered under the Brand.UP name."
         ]}
       ]
     },
@@ -84,7 +90,7 @@ window.TEXTES = {
     page3: {
       titre: "Show us how you think about brands",
       sousTitre: "No need for perfect answers — be precise and be yourself. Have your portfolio link ready.",
-      duree: "About 15 minutes"
+      duree: "About 10 minutes"
     },
 
     footer: {
@@ -157,25 +163,31 @@ window.TEXTES = {
       boutonDetails: "+ de détails",
       blocs: [
         { titre: "Ce qu’on t’offre", puces: [
-          "Rejoindre une agence créative et stratégique qui aide entrepreneurs, PME et marques en croissance à construire des identités fortes.",
-          "Des projets de branding complets — sans prospection ni facturation à gérer.",
-          "100 % à distance : autonomie et flexibilité totales.",
-          "Un contrat-cadre sur la durée : on continue avec les freelances qui livrent.",
-          "Payé sous 30 jours — même avant que le client nous ait réglés.",
-          "Des briefs clairs et des retours structurés des fondateurs."
+          "De vrais projets de branding pour des entrepreneurs, PME et marques en croissance — sans prospecter, sans faire de devis, sans relancer de paiements.",
+          "100 % à distance : tu organises ton temps comme tu veux, tant que les délais sont tenus.",
+          "Un ordre de mission clair pour chaque projet : brief, livrables, calendrier et prix fixés avant de commencer.",
+          "Payé·e sous 30 jours après ta facture — jamais conditionné au paiement du client.",
+          "Une direction créative assurée par les fondateurs : briefs clairs et retours structurés.",
+          "Une collaboration sur la durée : on continue avec les freelances qui livrent."
         ]},
-        { titre: "Ce que tu vas faire", puces: [
-          "Créer des identités visuelles complètes : logo, palette, typographie, éléments graphiques.",
-          "Assurer la direction artistique de marques et de campagnes.",
-          "Concevoir des brand guidelines et leurs déclinaisons (réseaux sociaux, print, packaging).",
-          "Présenter tes pistes créatives et les affiner avec les retours jusqu’à validation."
+        { titre: "Tes missions", puces: [
+          "Créer des identités visuelles complètes : logo, palette, typographie, système graphique.",
+          "Assurer la direction artistique de marques et de campagnes : moodboards, pistes créatives, supervision visuelle.",
+          "Concevoir des brand guidelines et leurs déclinaisons — réseaux sociaux, print, packaging, présentations.",
+          "Présenter tes pistes, expliquer tes choix et les affiner jusqu’à validation."
         ]},
         { titre: "Ce que tu apportes", puces: [
-          "Tu penses marque avant de penser logo : la stratégie guide tes choix créatifs.",
-          "Un portfolio solide en identité visuelle et/ou direction artistique.",
-          "De la fiabilité : tu respectes les délais et tu communiques clairement.",
-          "La maîtrise de tes outils (Illustrator, Photoshop, InDesign, Figma…).",
-          "Un statut indépendant pour facturer tes missions."
+          "Tu penses marque avant de penser logo : la stratégie guide chacun de tes choix créatifs.",
+          "Un portfolio qui le prouve, en identité visuelle et/ou direction artistique.",
+          "De la fiabilité : tu tiens tes délais et tu préviens dès qu’un risque apparaît.",
+          "Des fichiers sources propres et organisés, prêts à être transmis.",
+          "Tes propres logiciels sous licence et un statut indépendant pour facturer."
+        ]},
+        { titre: "Comment ça se passe", puces: [
+          "Tu candidates en 10 minutes environ, avec ton portfolio et une étude de cas.",
+          "Nous étudions chaque candidature. Les profils présélectionnés sont invités à un appel vidéo avec les fondateurs.",
+          "Tu signes notre contrat-cadre une seule fois — ensuite, chaque projet arrive avec son ordre de mission.",
+          "Tu crées, Brand.UP gère le client. Ton travail est livré sous le nom de Brand.UP."
         ]}
       ]
     },
@@ -183,7 +195,7 @@ window.TEXTES = {
     page3: {
       titre: "Montre-nous comment tu penses la marque",
       sousTitre: "Pas besoin de réponses parfaites : sois précis·e et sois toi-même. Prépare le lien de ton portfolio.",
-      duree: "Environ 15 minutes"
+      duree: "Environ 10 minutes"
     },
 
     footer: {
