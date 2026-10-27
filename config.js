@@ -29,8 +29,8 @@ window.BRANDUP_CONFIG = {
 
   // ---------- PAGE « + MORE DETAILS » ----------
   // Lien public de la page Notion (Notion → Share → Publish).
-  detailsUrl: "",
-  detailsUrlFr: "",          // facultatif : version française
+  detailsUrl: "https://app.notion.com/p/Freelance-Brand-Designer-Join-the-Brand-UP-creative-network-402c91a927138175b8c5d042155f2ca9",
+  detailsUrlFr: "https://app.notion.com/p/Brand-Designer-freelance-Rejoins-le-r-seau-cr-atif-Brand-UP-406c91a92713810da875c055b4ac5663",          // facultatif : version française
 
   // ---------- POLICE AVENIR NEXT (facultatif) ----------
   // Sans kit : Avenir Next s'affiche chez les visiteurs Apple (Mac, iPhone),

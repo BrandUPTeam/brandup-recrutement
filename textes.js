@@ -51,8 +51,8 @@ window.TEXTES = {
     },
 
     page2: {
-      titre: "Watch this video before applying",
-      sousTitre: "3 minutes to understand the role, how we work together and what we expect from you.",
+      titre: "Discover the role before applying",
+      sousTitre: "Everything you need to know about the role, how we work together and what we expect from you.",
       videoBadge: "Turn the sound on",
       boutonCandidater: "Apply now",
       boutonDetails: "+ More details",
@@ -157,8 +157,8 @@ window.TEXTES = {
     },
 
     page2: {
-      titre: "Regarde cette vidéo avant de candidater",
-      sousTitre: "3 minutes pour comprendre la mission, notre façon de collaborer et ce que l’on attend de toi.",
+      titre: "Découvre le poste avant de candidater",
+      sousTitre: "Tout ce qu’il faut savoir sur la mission, notre façon de collaborer et ce que l’on attend de toi.",
       videoBadge: "Active le son",
       boutonCandidater: "Je candidate",
       boutonDetails: "+ de détails",
