@@ -12,7 +12,7 @@ window.TEXTES = {
   /* =========================== ENGLISH =========================== */
   en: {
     bandeau: {
-      titre: "Freelance application — Branding & Art Direction",
+      titre: "Freelance application — Brand Designer",
       sousTitre: "Follow the steps to apply"
     },
     etapes: ["Your details", "Watch the video", "Apply"],
@@ -58,30 +58,31 @@ window.TEXTES = {
       boutonDetails: "+ More details",
       blocs: [
         { titre: "What we offer", puces: [
-          "Real branding projects for entrepreneurs, SMEs and growing brands — without hunting for clients, writing quotes or chasing payments.",
-          "100% remote: you organise your time as you like, as long as deadlines are met.",
-          "One clear mission order per project: brief, deliverables, timeline and price agreed before you start.",
-          "Paid within 30 days of your invoice — never dependent on whether the client has paid us.",
-          "Creative direction from the founders: clear briefs and structured feedback.",
-          "A long-term partnership: we keep working with the freelancers who deliver."
+          "Real branding projects for entrepreneurs, SMEs and growing brands — Brand.UP brings the clients and handles the relationship.",
+          "A brand strategy to work from, and a Creative & Strategy Director who values your expertise.",
+          "A fixed fee per project. Payment terms are flexible — we prefer paying by project milestones.",
+          "Fair timelines: the clock stops while we wait for client feedback.",
+          "100% remote: your hours, your methods, your tools.",
+          "Room to grow: larger projects and direct client involvement after your first successful projects."
         ]},
         { titre: "Your missions", puces: [
-          "Create complete visual identities: logo, colour palette, typography, graphic system.",
-          "Lead the art direction of brands and campaigns: moodboards, creative routes, visual supervision.",
-          "Design brand guidelines and their applications — social media, print, packaging, presentations.",
-          "Present your creative routes, explain your choices and refine them until sign-off."
+          "Review the brand strategy and challenge it with your design expertise.",
+          "Analyse the market and propose 2–3 distinct visual directions.",
+          "Design the logo and its variations, then the complete visual system: colours, typography, graphic elements, photo direction.",
+          "Apply the identity to the brand’s key touchpoints with realistic mockups.",
+          "Produce brand guidelines of at least 50 pages and a clean, complete file package."
         ]},
         { titre: "What you bring", puces: [
+          "A portfolio with at least 3 complete brand identities.",
+          "Strong command of Illustrator, Photoshop and InDesign (Figma is a plus).",
           "You think brand before logo: strategy drives every creative choice.",
-          "A portfolio that proves it, in visual identity and/or art direction.",
-          "Reliability: you meet deadlines and flag any risk early.",
-          "Clean, organised source files, ready to hand over.",
+          "Clear communication, openness to feedback and reliability with deadlines.",
           "Your own licensed tools and a self-employed status to invoice."
         ]},
         { titre: "How it works", puces: [
           "Apply in about 10 minutes with your portfolio and one case study.",
           "We review every application. Shortlisted profiles are invited to a video call with the founders.",
-          "You sign our framework contract once — then each project comes with its own mission order.",
+          "Each project is validated step by step, with short weekly updates and a review call at the end of each phase.",
           "You create, Brand.UP handles the client. Your work is delivered under the Brand.UP name."
         ]}
       ]
@@ -121,7 +122,7 @@ window.TEXTES = {
   /* =========================== FRANÇAIS =========================== */
   fr: {
     bandeau: {
-      titre: "Candidature freelance — Branding & Direction artistique",
+      titre: "Candidature freelance — Brand Designer",
       sousTitre: "Suis les étapes pour candidater"
     },
     etapes: ["Tes infos", "La vidéo", "Candidature"],
@@ -163,30 +164,31 @@ window.TEXTES = {
       boutonDetails: "+ de détails",
       blocs: [
         { titre: "Ce qu’on t’offre", puces: [
-          "De vrais projets de branding pour des entrepreneurs, PME et marques en croissance — sans prospecter, sans faire de devis, sans relancer de paiements.",
-          "100 % à distance : tu organises ton temps comme tu veux, tant que les délais sont tenus.",
-          "Un ordre de mission clair pour chaque projet : brief, livrables, calendrier et prix fixés avant de commencer.",
-          "Payé·e sous 30 jours après ta facture — jamais conditionné au paiement du client.",
-          "Une direction créative assurée par les fondateurs : briefs clairs et retours structurés.",
-          "Une collaboration sur la durée : on continue avec les freelances qui livrent."
+          "De vrais projets de branding pour des entrepreneurs, PME et marques en croissance — Brand.UP apporte les clients et gère la relation.",
+          "Une stratégie de marque sur laquelle t’appuyer, et une Directrice Création & Stratégie qui valorise ton expertise.",
+          "Un forfait par projet. Les modalités de paiement sont flexibles — nous privilégions un paiement par étape de projet.",
+          "Des délais justes : le compteur s’arrête pendant que nous attendons les retours du client.",
+          "100 % à distance : tes horaires, tes méthodes, tes outils.",
+          "De la place pour évoluer : des projets plus importants et un contact direct avec les clients après tes premiers projets réussis."
         ]},
         { titre: "Tes missions", puces: [
-          "Créer des identités visuelles complètes : logo, palette, typographie, système graphique.",
-          "Assurer la direction artistique de marques et de campagnes : moodboards, pistes créatives, supervision visuelle.",
-          "Concevoir des brand guidelines et leurs déclinaisons — réseaux sociaux, print, packaging, présentations.",
-          "Présenter tes pistes, expliquer tes choix et les affiner jusqu’à validation."
+          "Analyser la stratégie de marque et la challenger avec ton expertise de designer.",
+          "Étudier le marché et proposer 2 à 3 pistes visuelles distinctes.",
+          "Créer le logo et ses déclinaisons, puis le système visuel complet : couleurs, typographies, éléments graphiques, direction photo.",
+          "Décliner l’identité sur les supports clés de la marque, avec des mockups réalistes.",
+          "Réaliser une charte graphique d’au moins 50 pages et un pack de fichiers complet et propre."
         ]},
         { titre: "Ce que tu apportes", puces: [
+          "Un portfolio avec au moins 3 identités visuelles complètes.",
+          "Une excellente maîtrise d’Illustrator, Photoshop et InDesign (Figma est un plus).",
           "Tu penses marque avant de penser logo : la stratégie guide chacun de tes choix créatifs.",
-          "Un portfolio qui le prouve, en identité visuelle et/ou direction artistique.",
-          "De la fiabilité : tu tiens tes délais et tu préviens dès qu’un risque apparaît.",
-          "Des fichiers sources propres et organisés, prêts à être transmis.",
+          "Une communication claire, de l’ouverture aux retours et de la fiabilité sur les délais.",
           "Tes propres logiciels sous licence et un statut indépendant pour facturer."
         ]},
         { titre: "Comment ça se passe", puces: [
           "Tu candidates en 10 minutes environ, avec ton portfolio et une étude de cas.",
           "Nous étudions chaque candidature. Les profils présélectionnés sont invités à un appel vidéo avec les fondateurs.",
-          "Tu signes notre contrat-cadre une seule fois — ensuite, chaque projet arrive avec son ordre de mission.",
+          "Chaque projet est validé étape par étape, avec de courts points chaque semaine et un appel de revue à la fin de chaque phase.",
           "Tu crées, Brand.UP gère le client. Ton travail est livré sous le nom de Brand.UP."
         ]}
       ]
