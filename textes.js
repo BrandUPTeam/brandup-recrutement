@@ -15,7 +15,7 @@ window.TEXTES = {
       titre: "Freelance application — Brand Designer",
       sousTitre: "Follow the steps to apply"
     },
-    etapes: ["Your details", "Watch the video", "Apply"],
+    etapes: ["Your details", "The role", "Apply"],
 
     page1: {
       titreDebut: "Build brands that matter with ",
@@ -125,7 +125,7 @@ window.TEXTES = {
       titre: "Candidature freelance — Brand Designer",
       sousTitre: "Suis les étapes pour candidater"
     },
-    etapes: ["Tes infos", "La vidéo", "Candidature"],
+    etapes: ["Tes infos", "Le poste", "Candidature"],
 
     page1: {
       titreDebut: "Construis des marques qui comptent avec ",
