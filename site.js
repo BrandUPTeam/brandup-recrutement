@@ -256,6 +256,22 @@
     document.body.appendChild(s);
   }
 
+  // After a successful submission, go to the next step ourselves
+  // (Tally's own "redirect on completion" needs a paid plan).
+  var boxSuite = document.querySelector("[data-tally][data-suite]");
+  if (boxSuite) {
+    var dejaRedirige = false;
+    window.addEventListener("message", function (e) {
+      if (dejaRedirige || !/tally\.so$/.test(String(e.origin).replace(/^https?:\/\//, ""))) return;
+      var d = e.data;
+      if (typeof d === "string") { try { d = JSON.parse(d); } catch (err) { d = { event: d }; } }
+      if (!d || String(d.event || "").indexOf("Tally.FormSubmitted") === -1) return;
+      dejaRedirige = true;
+      var cible = boxSuite.getAttribute("data-suite") + (lang === "fr" ? "?lang=fr" : "");
+      setTimeout(function () { window.location.href = cible; }, 600);
+    });
+  }
+
   // ---------- YouTube or Vimeo video ----------
   document.querySelectorAll("[data-video]").forEach(function (box) {
     var url = String(cfg("videoUrl")).trim();
