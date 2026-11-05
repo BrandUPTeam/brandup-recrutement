@@ -20,6 +20,29 @@
   var UI = T.ui || {};
   document.documentElement.lang = lang;
 
+  // ---------- Tracking: remember ?utm_... from the link the candidate clicked ----------
+  // Kept for 60 days so steps 1 and 3 both record where the candidate came from.
+  var UTM_CLES = ["utm_source", "utm_medium", "utm_campaign", "utm_content"];
+  var utm = {};
+  try {
+    var params = new URLSearchParams(location.search);
+    var nouveaux = {};
+    UTM_CLES.forEach(function (k) { var v = params.get(k); if (v) nouveaux[k] = v.slice(0, 100); });
+    if (Object.keys(nouveaux).length) {
+      nouveaux.t = Date.now();
+      localStorage.setItem("bu_utm", JSON.stringify(nouveaux));
+    }
+    var memoUtm = JSON.parse(localStorage.getItem("bu_utm") || "null");
+    if (memoUtm && Date.now() - (memoUtm.t || 0) < 60 * 24 * 3600 * 1000) {
+      UTM_CLES.forEach(function (k) { if (memoUtm[k]) utm[k] = memoUtm[k]; });
+    }
+  } catch (e) {}
+  function avecUtm(url) {
+    var extra = UTM_CLES.filter(function (k) { return utm[k]; })
+      .map(function (k) { return k + "=" + encodeURIComponent(utm[k]); }).join("&");
+    return extra ? url + (url.indexOf("?") > -1 ? "&" : "?") + extra : url;
+  }
+
   // A config value, with its French variant when the page is in French
   function cfg(cle) {
     if (lang === "fr" && C[cle + "Fr"]) return C[cle + "Fr"];
@@ -237,6 +260,7 @@
     }
     var src = "https://tally.so/embed/" + encodeURIComponent(id) +
       "?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1";
+    src = avecUtm(src);
     var f = document.createElement("iframe");
     f.setAttribute("data-tally-src", src);
     f.src = src;
