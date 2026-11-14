@@ -23,9 +23,12 @@ window.BRANDUP_CONFIG = {
   tallyCandidatureIdFr: "jeePZ9",
 
   // ---------- VIDÉO ----------
-  // Lien YouTube (ex : https://www.youtube.com/watch?v=XXXXXXXX) ou Vimeo.
-  videoUrl: "",
-  videoUrlFr: "",            // facultatif : vidéo en français
+  // Fichier .mp4 du site (dossier assets), lien YouTube ou Vimeo.
+  // Chaque langue a sa propre vidéo ; vide = « Vidéo bientôt disponible ».
+  videoUrl: "assets/video-joanna.mp4",
+  videoPoster: "assets/video-poster.jpg",
+  videoUrlFr: "",            // vidéo de la page française
+  videoPosterFr: "",
 
   // ---------- PAGE « + MORE DETAILS » ----------
   // Lien public de la page Notion (Notion → Share → Publish).

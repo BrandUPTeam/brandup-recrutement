@@ -296,9 +296,22 @@
     });
   }
 
-  // ---------- YouTube or Vimeo video ----------
+  // ---------- Video: a file on the site (.mp4), YouTube or Vimeo ----------
+  // Each language uses its own video only; empty = "video coming soon".
   document.querySelectorAll("[data-video]").forEach(function (box) {
-    var url = String(cfg("videoUrl")).trim();
+    var url = String((lang === "fr" ? C.videoUrlFr : C.videoUrl) || "").trim();
+    if (/\.mp4(\?|$)/i.test(url)) {
+      box.innerHTML = "";
+      var v = document.createElement("video");
+      v.src = url;
+      v.controls = true;
+      v.preload = "metadata";
+      v.playsInline = true;
+      var poster = String((lang === "fr" ? C.videoPosterFr : C.videoPoster) || "").trim();
+      if (poster) v.poster = poster;
+      box.appendChild(v);
+      return;
+    }
     var embed = null;
     var yt = url.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{6,})/);
     var vm = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
