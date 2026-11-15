@@ -27,8 +27,8 @@ window.BRANDUP_CONFIG = {
   // Chaque langue a sa propre vidéo ; vide = « Vidéo bientôt disponible ».
   videoUrl: "assets/video-joanna.mp4",
   videoPoster: "assets/video-poster.jpg",
-  videoUrlFr: "assets/video-joanna-fr.mp4?v=2", // vidéo de la page française (sous-titres FR)
-  videoPosterFr: "assets/video-poster-fr.jpg?v=2",
+  videoUrlFr: "assets/video-joanna-fr.mp4?v=3", // vidéo de la page française (sous-titres FR)
+  videoPosterFr: "assets/video-poster-fr.jpg?v=3",
 
   // ---------- PAGE « + MORE DETAILS » ----------
   // Lien public de la page Notion (Notion → Share → Publish).
