@@ -9,7 +9,7 @@ window.BRANDUP_CONFIG = {
   // ---------- ACCÈS AU SITE ----------
   // true  = site verrouillé : les visiteurs voient « Coming soon » et doivent taper le code.
   // false = site ouvert à tous (à mettre le jour du lancement).
-  siteVerrouille: true,
+  siteVerrouille: false,
   // Code pour entrer pendant la construction. Lien direct sans taper le code :
   // https://ton-site/?code=LE_CODE
   codeAcces: "brandup2026",
