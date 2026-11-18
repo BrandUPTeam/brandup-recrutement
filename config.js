@@ -35,6 +35,23 @@ window.BRANDUP_CONFIG = {
   detailsUrl: "https://app.notion.com/p/Freelance-Brand-Designer-Join-the-Brand-UP-creative-network-402c91a927138175b8c5d042155f2ca9",
   detailsUrlFr: "https://app.notion.com/p/Brand-Designer-freelance-Rejoins-le-r-seau-cr-atif-Brand-UP-406c91a92713810da875c055b4ac5663",          // facultatif : version française
 
+  // ---------- AUTRES MÉTIERS (pages dans un sous-dossier, ex. /marketing/) ----------
+  // Chaque métier a son questionnaire (page 3), sa vidéo et ses pages « + de détails ».
+  // Le formulaire de la page 1 est commun à tous les métiers (le métier est envoyé avec).
+  // Vidéo vide = « Vidéo bientôt disponible ».
+  metiers: {
+    marketing: {
+      tallyCandidatureId: "peoMpJ",
+      tallyCandidatureIdFr: "laO5kk",
+      videoUrl: "",
+      videoPoster: "",
+      videoUrlFr: "",
+      videoPosterFr: "",
+      detailsUrl: "https://app.notion.com/p/41cc91a927138128a9a6cbd0ce5246af",
+      detailsUrlFr: "https://app.notion.com/p/41cc91a92713811eb28cef3344e9e86a"
+    }
+  },
+
   // ---------- POLICE AVENIR NEXT (facultatif) ----------
   // Sans kit : Avenir Next s'affiche chez les visiteurs Apple (Mac, iPhone),
   // Nunito Sans (la plus proche) chez les autres.

@@ -212,3 +212,92 @@ window.TEXTES = {
     }
   }
 };
+
+/*
+  ============================================================
+  TEXTS PER JOB — TEXTES PAR MÉTIER
+  Only what differs from the Brand Designer texts above.
+  Everything not listed here is taken from the texts above.
+  ============================================================
+*/
+window.TEXTES_METIERS = {
+
+  /* ======================= MARKETING EXPERT ======================= */
+  marketing: {
+    en: {
+      bandeau: { titre: "Freelance application — Marketing Expert" },
+      page1: {
+        titreDebut: "Grow brands that matter with "
+      },
+      page2: {
+        blocs: [
+          { titre: "What we offer", puces: [
+            "Real marketing projects for entrepreneurs, SMEs and growing brands — Brand.UP brings the clients and handles the relationship.",
+            "A brand that is already defined to build on, and a Creative & Strategy Director who values your expertise.",
+            "A fixed fee per project for the strategy; set-up and management are quoted separately. We prefer paying by project milestones.",
+            "The ad budget is always paid by the client — never by you.",
+            "Fair timelines: the clock stops while we wait for client feedback.",
+            "100% remote: your hours, your methods, your tools.",
+            "Room to grow: larger projects and direct client involvement after your first successful projects."
+          ]},
+          { titre: "The projects", puces: [
+            "Audit the client’s marketing: website, social media, ads, SEO, figures and competitors.",
+            "Build the marketing strategy: positioning, personas, channels, funnel, objectives and budget.",
+            "Turn it into a 90-day action plan, ready to execute.",
+            "When the client orders it: set up tracking, then launch and optimise Meta Ads, Google Ads and LinkedIn campaigns, SEO and emailing.",
+            "Report on the results and recommend the next actions."
+          ]},
+          { titre: "What you bring", puces: [
+            "At least 3 client projects to show, with the strategy and the results achieved.",
+            "Strong command of Meta Ads, Google Ads and SEO (LinkedIn is a big plus).",
+            "You think strategy before tactics: every action serves the brand and a clear objective.",
+            "Clear communication, an analytical mind and reliability with deadlines.",
+            "A self-employed status to invoice."
+          ]}
+        ]
+      },
+      page3: {
+        titre: "Show us how you grow a brand",
+        sousTitre: "No need for perfect answers — be precise and be yourself. Have your case studies ready."
+      }
+    },
+
+    fr: {
+      bandeau: { titre: "Candidature freelance — Expert marketing" },
+      page1: {
+        titreDebut: "Fais grandir des marques qui comptent avec "
+      },
+      page2: {
+        blocs: [
+          { titre: "Ce qu’on t’offre", puces: [
+            "De vrais projets marketing pour des entrepreneurs, PME et marques en croissance — Brand.UP apporte les clients et gère la relation.",
+            "Une marque déjà définie sur laquelle t’appuyer, et une Directrice Création & Stratégie qui valorise ton expertise.",
+            "Un forfait par projet pour la stratégie ; la mise en place et le pilotage sont chiffrés à part. Nous privilégions un paiement par étape de projet.",
+            "Le budget publicitaire est toujours payé par le client — jamais par toi.",
+            "Des délais justes : le compteur s’arrête pendant que nous attendons les retours du client.",
+            "100 % à distance : tes horaires, tes méthodes, tes outils.",
+            "De la place pour évoluer : des projets plus importants et un contact direct avec les clients après tes premiers projets réussis."
+          ]},
+          { titre: "Les projets", puces: [
+            "Auditer le marketing du client : site, réseaux sociaux, publicités, SEO, chiffres et concurrence.",
+            "Construire la stratégie marketing : positionnement, personas, canaux, funnel, objectifs et budget.",
+            "La traduire en plan d’action sur 90 jours, prêt à exécuter.",
+            "Quand le client le commande : installer le suivi, puis lancer et optimiser les campagnes Meta Ads, Google Ads et LinkedIn, le SEO et l’emailing.",
+            "Rendre compte des résultats et recommander les prochaines actions."
+          ]},
+          { titre: "Ce que tu apportes", puces: [
+            "Au moins 3 projets clients à montrer, avec la stratégie et les résultats obtenus.",
+            "Une très bonne maîtrise de Meta Ads, Google Ads et du SEO (LinkedIn est un gros plus).",
+            "Tu penses stratégie avant tactique : chaque action sert la marque et un objectif clair.",
+            "Une communication claire, un esprit d’analyse et de la fiabilité sur les délais.",
+            "Un statut indépendant pour facturer."
+          ]}
+        ]
+      },
+      page3: {
+        titre: "Montre-nous comment tu fais grandir une marque",
+        sousTitre: "Pas besoin de réponses parfaites : sois précis·e et sois toi-même. Prépare les liens vers tes études de cas."
+      }
+    }
+  }
+};

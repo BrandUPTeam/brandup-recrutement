@@ -6,6 +6,25 @@
   var C = window.BRANDUP_CONFIG || {};
   var TOUS = window.TEXTES || {};
   var LANGUES = ["en", "fr"];
+  // Job of this page: set in the page (window.BRANDUP_METIER), "" = Brand Designer
+  var METIER = window.BRANDUP_METIER || "";
+  var M = (METIER && C.metiers && C.metiers[METIER]) || {};
+  // Pages in a sub-folder (e.g. /marketing/) set BRANDUP_RACINE = "../"
+  var RACINE = window.BRANDUP_RACINE || "";
+  function chemin(p) {
+    p = String(p || "");
+    return (!p || /^(https?:)?\/\//.test(p) || p.charAt(0) === "/") ? p : RACINE + p;
+  }
+  // Merge the job-specific texts over the default texts
+  function fusion(base, plus) {
+    if (!plus || typeof plus !== "object" || Array.isArray(plus)) return plus === undefined ? base : plus;
+    var out = {};
+    Object.keys(base || {}).forEach(function (k) { out[k] = base[k]; });
+    Object.keys(plus).forEach(function (k) {
+      out[k] = (base && typeof base[k] === "object" && !Array.isArray(base[k])) ? fusion(base[k], plus[k]) : plus[k];
+    });
+    return out;
+  }
 
   // ---------- Language: ?lang=fr in the URL, else last choice, else English ----------
   var lang = "en";
@@ -17,6 +36,8 @@
   } catch (e) {}
   if (!TOUS[lang]) lang = "en";
   var T = TOUS[lang] || {};
+  var TM = (window.TEXTES_METIERS || {})[METIER];
+  if (TM && TM[lang]) T = fusion(T, TM[lang]);
   var UI = T.ui || {};
   document.documentElement.lang = lang;
 
@@ -44,9 +65,17 @@
   }
 
   // A config value, with its French variant when the page is in French
+  // (a job page uses its own value first, see "metiers" in config.js)
   function cfg(cle) {
+    if (lang === "fr" && M[cle + "Fr"]) return M[cle + "Fr"];
+    if (M[cle]) return M[cle];
     if (lang === "fr" && C[cle + "Fr"]) return C[cle + "Fr"];
     return C[cle] || "";
+  }
+  // Same, but a job page never falls back to the Brand Designer value (videos)
+  function cfgStrict(cle) {
+    var src = METIER ? M : C;
+    return String((lang === "fr" ? src[cle + "Fr"] : src[cle]) || "").trim();
   }
 
   // ---------- Avenir Next via Adobe Fonts (optional) ----------
@@ -103,7 +132,7 @@
     ecran.appendChild(haut);
     var carte = el("div", "ecran-verrou__carte");
     var logo = el("img");
-    logo.src = "assets/logo-rose.png"; logo.alt = "Brand.UP"; logo.width = 170;
+    logo.src = chemin("assets/logo-rose.png"); logo.alt = "Brand.UP"; logo.width = 170;
     carte.appendChild(logo);
     carte.appendChild(el("h1", null, UI.verrouTitre || "Coming soon"));
     carte.appendChild(el("p", null, UI.verrouTexte || ""));
@@ -178,7 +207,7 @@
       li.appendChild(tete);
       if (t.capture) {
         var img = el("img", "temoignage__capture");
-        img.src = t.capture;
+        img.src = chemin(t.capture);
         img.alt = t.nom || "";
         img.loading = "lazy";
         li.appendChild(img);
@@ -192,7 +221,7 @@
         .map(function (m) { return m.charAt(0); }).join("").slice(0, 2).toUpperCase();
       if (t.photo) {
         var ph = el("img", "temoignage__photo");
-        ph.src = t.photo; ph.alt = ""; ph.loading = "lazy";
+        ph.src = chemin(t.photo); ph.alt = ""; ph.loading = "lazy";
         auteur.appendChild(ph);
       } else {
         var av = el("span", "temoignage__initiales", initiales);
@@ -261,6 +290,8 @@
     var src = "https://tally.so/embed/" + encodeURIComponent(id) +
       "?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1";
     src = avecUtm(src);
+    // Tells the shared step-1 form which job the candidate is applying for
+    src += "&poste=" + encodeURIComponent(METIER || "brand-designer");
     var f = document.createElement("iframe");
     f.setAttribute("data-tally-src", src);
     f.src = src;
@@ -299,7 +330,8 @@
   // ---------- Video: a file on the site (.mp4), YouTube or Vimeo ----------
   // Each language uses its own video only; empty = "video coming soon".
   document.querySelectorAll("[data-video]").forEach(function (box) {
-    var url = String((lang === "fr" ? C.videoUrlFr : C.videoUrl) || "").trim();
+    var url = cfgStrict("videoUrl");
+    if (/\.mp4(\?|$)/i.test(url)) url = chemin(url);
     if (/\.mp4(\?|$)/i.test(url)) {
       box.innerHTML = "";
       var v = document.createElement("video");
@@ -307,8 +339,8 @@
       v.controls = true;
       v.preload = "metadata";
       v.playsInline = true;
-      var poster = String((lang === "fr" ? C.videoPosterFr : C.videoPoster) || "").trim();
-      if (poster) v.poster = poster;
+      var poster = cfgStrict("videoPoster");
+      if (poster) v.poster = chemin(poster);
       box.appendChild(v);
       return;
     }
