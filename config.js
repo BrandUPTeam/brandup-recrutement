@@ -41,6 +41,8 @@ window.BRANDUP_CONFIG = {
   // Vidéo vide = « Vidéo bientôt disponible ».
   metiers: {
     marketing: {
+      tallyContactId: "EqlY0B",
+      tallyContactIdFr: "2jA5rD",
       tallyCandidatureId: "peoMpJ",
       tallyCandidatureIdFr: "laO5kk",
       videoUrl: "assets/video-marketing.mp4",
