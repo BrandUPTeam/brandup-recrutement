@@ -43,8 +43,8 @@ window.BRANDUP_CONFIG = {
     marketing: {
       tallyCandidatureId: "peoMpJ",
       tallyCandidatureIdFr: "laO5kk",
-      videoUrl: "",
-      videoPoster: "",
+      videoUrl: "assets/video-marketing.mp4",
+      videoPoster: "assets/video-marketing-poster.jpg",
       videoUrlFr: "",
       videoPosterFr: "",
       detailsUrl: "https://app.notion.com/p/41cc91a927138128a9a6cbd0ce5246af",
