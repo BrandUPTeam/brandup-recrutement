@@ -6,7 +6,10 @@
 */
 (function () {
   var C = window.BRANDUP_CONFIG || {};
-  if (!C.siteVerrouille) return;
+  // Un métier peut avoir son propre verrou (config.js → metiers.<métier>.siteVerrouille)
+  var M = (window.BRANDUP_METIER && C.metiers && C.metiers[window.BRANDUP_METIER]) || {};
+  var verrouille = ("siteVerrouille" in M) ? M.siteVerrouille : C.siteVerrouille;
+  if (!verrouille) return;
 
   var robots = document.createElement("meta");
   robots.name = "robots";

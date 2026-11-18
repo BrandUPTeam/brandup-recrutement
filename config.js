@@ -41,6 +41,7 @@ window.BRANDUP_CONFIG = {
   // Vidéo vide = « Vidéo bientôt disponible ».
   metiers: {
     marketing: {
+      siteVerrouille: true,  // false = tunnel marketing public
       tallyContactId: "EqlY0B",
       tallyContactIdFr: "2jA5rD",
       tallyCandidatureId: "peoMpJ",
