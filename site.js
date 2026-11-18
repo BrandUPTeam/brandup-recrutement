@@ -11,6 +11,11 @@
   var M = (METIER && C.metiers && C.metiers[METIER]) || {};
   // Pages in a sub-folder (e.g. /marketing/) set BRANDUP_RACINE = "../"
   var RACINE = window.BRANDUP_RACINE || "";
+  // /marketing (sans « / » final) : les liens relatifs partiraient vers la racine (designer)
+  if (METIER && !/(\/|\.html)$/.test(location.pathname)) {
+    location.replace(location.pathname + "/" + location.search + location.hash);
+    return;
+  }
   function chemin(p) {
     p = String(p || "");
     return (!p || /^(https?:)?\/\//.test(p) || p.charAt(0) === "/") ? p : RACINE + p;
