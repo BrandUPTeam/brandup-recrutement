@@ -233,8 +233,8 @@ window.TEXTES_METIERS = {
         blocs: [
           { titre: "What we offer", puces: [
             "Real marketing projects for entrepreneurs, SMEs and growing brands — Brand.UP brings the clients and handles the relationship.",
-            "A brand that is already defined to build on, and a Creative & Strategy Director who values your expertise.",
-            "A fixed fee per project for the strategy; set-up and management are quoted separately. We prefer paying by project milestones.",
+            "A team around you: a Creative & Strategy Director who values your expertise, and an execution team for ads and SEO.",
+            "A fixed fee per project for the strategy; steering (and execution, when needed) is quoted separately. We prefer paying by project milestones.",
             "The ad budget is always paid by the client — never by you.",
             "Fair timelines: the clock stops while we wait for client feedback.",
             "100% remote: your hours, your methods, your tools.",
@@ -244,12 +244,12 @@ window.TEXTES_METIERS = {
             "Audit the client’s marketing: website, social media, ads, SEO, figures and competitors.",
             "Build the marketing strategy: positioning, personas, channels, funnel, objectives and budget.",
             "Turn it into a 90-day action plan, ready to execute.",
-            "When the client orders it: set up tracking, then launch and optimise Meta Ads, Google Ads and LinkedIn campaigns, SEO and emailing.",
+            "When the client orders it: brief our execution team (ads, SEO), track the results and adjust the strategy — and execute yourself when needed.",
             "Report on the results and recommend the next actions."
           ]},
           { titre: "What you bring", puces: [
             "At least 3 client projects to show, with the strategy and the results achieved.",
-            "Strong command of Meta Ads, Google Ads and SEO (LinkedIn is a big plus).",
+            "Real expertise in marketing strategy, and a good understanding of ads and SEO — enough to brief an execution team, without having to run them yourself.",
             "You think strategy before tactics: every action serves the brand and a clear objective.",
             "Clear communication, an analytical mind and reliability with deadlines.",
             "A self-employed status to invoice."
@@ -271,8 +271,8 @@ window.TEXTES_METIERS = {
         blocs: [
           { titre: "Ce qu’on t’offre", puces: [
             "De vrais projets marketing pour des entrepreneurs, PME et marques en croissance — Brand.UP apporte les clients et gère la relation.",
-            "Une marque déjà définie sur laquelle t’appuyer, et une Directrice Création & Stratégie qui valorise ton expertise.",
-            "Un forfait par projet pour la stratégie ; la mise en place et le pilotage sont chiffrés à part. Nous privilégions un paiement par étape de projet.",
+            "Une équipe autour de toi : une Directrice Création & Stratégie qui valorise ton expertise, et une équipe d’exécution pour les ads et le SEO.",
+            "Un forfait par projet pour la stratégie ; le pilotage (et l’exécution, si nécessaire) est chiffré à part. Nous privilégions un paiement par étape de projet.",
             "Le budget publicitaire est toujours payé par le client — jamais par toi.",
             "Des délais justes : le compteur s’arrête pendant que nous attendons les retours du client.",
             "100 % à distance : tes horaires, tes méthodes, tes outils.",
@@ -282,12 +282,12 @@ window.TEXTES_METIERS = {
             "Auditer le marketing du client : site, réseaux sociaux, publicités, SEO, chiffres et concurrence.",
             "Construire la stratégie marketing : positionnement, personas, canaux, funnel, objectifs et budget.",
             "La traduire en plan d’action sur 90 jours, prêt à exécuter.",
-            "Quand le client le commande : installer le suivi, puis lancer et optimiser les campagnes Meta Ads, Google Ads et LinkedIn, le SEO et l’emailing.",
+            "Quand le client le commande : briefer notre équipe d’exécution (ads, SEO), suivre les résultats et ajuster la stratégie — et exécuter toi-même si nécessaire.",
             "Rendre compte des résultats et recommander les prochaines actions."
           ]},
           { titre: "Ce que tu apportes", puces: [
             "Au moins 3 projets clients à montrer, avec la stratégie et les résultats obtenus.",
-            "Une très bonne maîtrise de Meta Ads, Google Ads et du SEO (LinkedIn est un gros plus).",
+            "Une vraie expertise en stratégie marketing, et une bonne compréhension des ads et du SEO — assez pour briefer une équipe d’exécution, sans forcément les gérer toi-même.",
             "Tu penses stratégie avant tactique : chaque action sert la marque et un objectif clair.",
             "Une communication claire, un esprit d’analyse et de la fiabilité sur les délais.",
             "Un statut indépendant pour facturer."
