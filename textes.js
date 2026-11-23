@@ -299,5 +299,84 @@ window.TEXTES_METIERS = {
         sousTitre: "Pas besoin de réponses parfaites : sois précis·e et sois toi-même. Prépare les liens vers tes études de cas."
       }
     }
+  },
+
+  /* ======================= FULL STACK WEB DEVELOPER ======================= */
+  webdev: {
+    en: {
+      bandeau: { titre: "Freelance application — Full Stack Web Developer" },
+      page1: {
+        titreDebut: "Build websites that make brands grow with "
+      },
+      page2: {
+        blocs: [
+          { titre: "What we offer", puces: [
+            "Real web projects for entrepreneurs, SMEs and growing brands — Brand.UP brings the clients and handles the relationship.",
+            "No client management: you focus on building, we handle quotes, follow-up and feedback.",
+            "A fixed fee per project, agreed before each start; maintenance is quoted separately. We prefer paying by project milestones.",
+            "A team around you: designers and a Creative & Strategy Director for the visuals, an execution team for SEO and ads.",
+            "Fair timelines: the clock stops while we wait for client feedback.",
+            "100% remote: your hours, your methods, your tools.",
+            "Room to grow: larger projects after your first successful ones."
+          ]},
+          { titre: "The projects", puces: [
+            "Landing pages, business websites, e-commerce (WooCommerce or custom), custom-coded websites and web apps.",
+            "Build from a Figma design provided by our designers, or design the website yourself from the brand guidelines.",
+            "Develop, test on every screen, then launch: domain, hosting, e-mails, SSL, payments, GDPR.",
+            "Deliver a fast, well-structured website, ready for SEO, with short documentation.",
+            "Maintain the website after launch when the client orders it."
+          ]},
+          { titre: "What you bring", puces: [
+            "At least 3 live websites to show, including 1 e-commerce or 1 custom-coded project.",
+            "Strong command of WordPress / WooCommerce, and of React / Next.js + Node.js.",
+            "The ability to create a clean design when no mock-up is provided.",
+            "Attention to detail, clear communication and reliability with deadlines.",
+            "A self-employed status to invoice."
+          ]}
+        ]
+      },
+      page3: {
+        titre: "Show us what you build",
+        sousTitre: "No need for perfect answers — be precise and be yourself. Have the links to your live websites ready."
+      }
+    },
+
+    fr: {
+      bandeau: { titre: "Candidature freelance — Développeur web full stack" },
+      page1: {
+        titreDebut: "Crée des sites qui font grandir les marques avec "
+      },
+      page2: {
+        blocs: [
+          { titre: "Ce qu’on t’offre", puces: [
+            "De vrais projets web pour des entrepreneurs, PME et marques en croissance — Brand.UP apporte les clients et gère la relation.",
+            "Zéro gestion client : tu te concentres sur le développement, on s’occupe des devis, du suivi et des retours.",
+            "Un forfait par projet, annoncé avant chaque démarrage ; la maintenance est chiffrée à part. Nous privilégions un paiement par étape de projet.",
+            "Une équipe autour de toi : des designers et une Directrice Création & Stratégie pour le visuel, une équipe d’exécution pour le SEO et les ads.",
+            "Des délais justes : le compteur s’arrête pendant que nous attendons les retours du client.",
+            "100 % à distance : tes horaires, tes méthodes, tes outils.",
+            "De la place pour évoluer : des projets plus importants après tes premiers projets réussis."
+          ]},
+          { titre: "Les projets", puces: [
+            "Landing pages, sites business, e-commerces (WooCommerce ou sur mesure), sites codés sur mesure et web apps.",
+            "Intégrer une maquette Figma fournie par nos designers, ou créer toi-même le design à partir de la charte graphique.",
+            "Développer, tester sur tous les écrans, puis mettre en ligne : domaine, hébergement, e-mails, SSL, paiement, RGPD.",
+            "Livrer un site rapide, bien structuré, prêt pour le SEO, avec une courte documentation.",
+            "Assurer la maintenance après la mise en ligne quand le client la commande."
+          ]},
+          { titre: "Ce que tu apportes", puces: [
+            "Au moins 3 sites en ligne à montrer, dont 1 e-commerce ou 1 projet codé sur mesure.",
+            "Une très bonne maîtrise de WordPress / WooCommerce, et de React / Next.js + Node.js.",
+            "La capacité à créer un design propre quand aucune maquette n’est fournie.",
+            "Le sens du détail, une communication claire et de la fiabilité sur les délais.",
+            "Un statut indépendant pour facturer."
+          ]}
+        ]
+      },
+      page3: {
+        titre: "Montre-nous ce que tu construis",
+        sousTitre: "Pas besoin de réponses parfaites : sois précis·e et sois toi-même. Prépare les liens vers tes sites en ligne."
+      }
+    }
   }
 };

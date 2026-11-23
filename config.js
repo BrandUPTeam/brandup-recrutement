@@ -52,6 +52,19 @@ window.BRANDUP_CONFIG = {
       videoPosterFr: "assets/video-marketing-poster-fr.jpg",
       detailsUrl: "https://app.notion.com/p/41cc91a927138128a9a6cbd0ce5246af",
       detailsUrlFr: "https://app.notion.com/p/41cc91a92713811eb28cef3344e9e86a"
+    },
+    webdev: {
+      siteVerrouille: true,  // false = tunnel web dev public
+      tallyContactId: "aO2v6E",
+      tallyContactIdFr: "BEx0XA",
+      tallyCandidatureId: "LDPkbO",
+      tallyCandidatureIdFr: "M1EMbg",
+      videoUrl: "",
+      videoPoster: "",
+      videoUrlFr: "",
+      videoPosterFr: "",
+      detailsUrl: "https://app.notion.com/p/421c91a9271381f6aa72d987159c24dd",
+      detailsUrlFr: "https://app.notion.com/p/421c91a92713813ba4bdddc6243c3683"
     }
   },
 
